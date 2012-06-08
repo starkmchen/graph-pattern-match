@@ -1,0 +1,17 @@
+{
+"jsonport":9085, 
+"hashserver":"192.168.1.184", 
+"hashport":9084, 
+"hbaseserver":"192.168.1.163", 
+"hbaseport":9090, 
+"jsonqueuemax":500, 
+"weiboqueuemax":500, 
+"hashsendno":500, 
+"weibologitem":500, 
+"weibologprefix":"mbloginfo",
+"weibologdir":"/home/mapred/parserlog",
+"statelogitem":10000, 
+"statelogprefix":"statelog", 
+"statelogdir":"/home/mapred/statelog",
+"queueinfologprefix":"queueinfo"
+}

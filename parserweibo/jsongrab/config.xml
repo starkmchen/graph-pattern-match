@@ -1,0 +1,20 @@
+<sinamblog>
+    <attr type="string">mblogid</attr>
+    <attr type="int">uid</attr>
+    <attr type="double">time</attr>
+    <attr type="string">strtime</attr>
+    <attr type="double">source</attr>
+    <attr type="int">rtnum</attr>
+    <attr type="int">cmtnum</attr>
+    <attr type="struct" name="content">
+        <attrsub1 type="longstring">text</attrsub1>
+    </attr>
+    <attr type="struct" name="rt">
+        <attrsub1 type="double">rootuid</attrsub1>
+        <attrsub1 type="string">rootid</attrsub1>
+        <attrsub1 type="double">fromuid</attrsub1>
+        <attrsub1 type="string">rtnick</attrsub1>
+        <attrsub1 type="longstring">rturl</attrsub1>
+        <attrsub1 type="longstring">rtreason</attrsub1>
+    </attr>
+</sinamblog>
